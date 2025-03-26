@@ -21,7 +21,7 @@
 
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `streamlit run main.py`
+3. Run the app: `streamlit run run_app.py`
 
 #### Features
 
