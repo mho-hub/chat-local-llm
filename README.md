@@ -1,33 +1,12 @@
-# chat-local-llm
-## STREAMLIT application
+# Local LLMs Applications
+## Overview
+- This project shows you 3 different basic user interfaces to interact with LLMs locally:
+- **A) LOCAL MULTIMODEL:**  
+	simple interface to select one model from local disc and display history
 
-### Access locally downloaded models using Ollama
+- **B) 2 MODELS, 1 PROMPT:**
+simple double chat interface to query two different models and compare the results
 
-#### This app displays:
-- a side panel with 
-  - a select box to choose from a list of local models (`ollama call`). 
-  - a clear button for the chat history (`shelve`) of the selected model.
-- a central panel with a chat input field
-  - the panel opens after the selected model is selected and displayed
-  - chat history is displayed
+- **C) ONE MODEL TO ANOTHER:**
+multiple chat interface to query different models and let them fight it out! 
 
-#### Requirements:
-- Python 3.8 or higher
-- Ollama installed locally
-- Streamlit installed (`pip install streamlit`)
-- Models downloaded and available in Ollama (`ollama list`)
-
-#### How to run
-
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `streamlit run run_app.py`
-
-#### Features
-
-- **Model Selection**: Users can select from a list of locally downloaded models.
-- **Chat Interface**: A chat interface is provided for interacting with the selected model.
-- **Clear Chat History**: Users can clear the chat history for the selected model.
-
-### Notes:
-- see screenshot
